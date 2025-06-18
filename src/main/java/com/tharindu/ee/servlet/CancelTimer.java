@@ -1,6 +1,6 @@
-package com.tharindu.ee.timer.servlet;
+package com.tharindu.ee.servlet;
 
-import com.tharindu.ee.timer.ejb.TimerSessionBean;
+import com.tharindu.ee.ejb.TimerSessionBean;
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

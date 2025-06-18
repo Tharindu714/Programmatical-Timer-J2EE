@@ -1,4 +1,4 @@
-package com.tharindu.ee.timer.ejb;
+package com.tharindu.ee.ejb;
 
 import jakarta.annotation.Resource;
 import jakarta.ejb.*;

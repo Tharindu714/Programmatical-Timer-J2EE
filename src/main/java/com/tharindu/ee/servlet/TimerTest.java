@@ -1,7 +1,8 @@
-package com.tharindu.ee.timer.servlet;
+package com.tharindu.ee.servlet;
 
-import com.tharindu.ee.timer.ejb.TimerNewSessionBean;
-import com.tharindu.ee.timer.ejb.TimerSessionBean;
+import com.tharindu.ee.ejb.TaskTimerSessionBean;
+import com.tharindu.ee.ejb.TimerNewSessionBean;
+import com.tharindu.ee.timer.Task;
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -15,11 +16,17 @@ import java.io.IOException;
 public class TimerTest extends HttpServlet {
     @EJB
 //    TimerSessionBean timerSessionBean;
-    TimerNewSessionBean timerNewSessionBean;
+//    TimerNewSessionBean timerNewSessionBean;
+    TaskTimerSessionBean taskTimerSessionBean;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        timerSessionBean.doTask();
-        timerNewSessionBean.doTask();
+//        timerNewSessionBean.doTask();
+
+        Task task = taskTimerSessionBean.doTask(20000); // 20 ms
+        System.out.println("Task is scheduled with ID: " + task.getTaskId());
+
+        request.getSession().setAttribute("task", task.getTaskId());
     }
 }

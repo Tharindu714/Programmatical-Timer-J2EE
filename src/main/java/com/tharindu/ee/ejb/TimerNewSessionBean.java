@@ -1,4 +1,4 @@
-package com.tharindu.ee.timer.ejb;
+package com.tharindu.ee.ejb;
 
 import jakarta.annotation.Resource;
 import jakarta.ejb.*;
@@ -14,7 +14,7 @@ public class TimerNewSessionBean {
 
     public void doTask() {
 
-        timerService.createTimer(10000, "Clock"); // Create a timer that triggers after 1 second
+        timerService.createTimer(5000, "Clock"); // Create a timer that triggers after 1 second
 
         TimerConfig timerConfig = new TimerConfig();
         timerConfig.setInfo("Info");
