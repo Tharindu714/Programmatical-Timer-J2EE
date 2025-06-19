@@ -1,5 +1,3 @@
-## **README.md for Programmatic Timer (J2EE)**
-
 # ⏱️ Programmatic Timer EJB Demo
 
 > A Java EE application showcasing the use of programmatic timers via the `TimerService` API.

@@ -10,16 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95c4fb5-a832-40e3-9495-2e8e82614fe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TaskTimerSessionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/servlet/CancelTaskTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/AutoTimerSessionBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/ejb/TaskSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TaskSessionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/ejb/TimerNewSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TimerNewSessionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/ejb/TimerSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TimerSessionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/servlet/CancelTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/servlet/CancelTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/servlet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/servlet/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/timer/servlet/TimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/servlet/TimerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TaskTimerSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tharindu/ee/ejb/TaskTimerSessionBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;GlassFish Server.GlassFish 7.0.21.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "GlassFish Server.GlassFish 7.0.21 - Remote.executor": "Run",
+    "GlassFish Server.GlassFish 7.0.21.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="GlassFish 7.0.21" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="GlassFish Server.GlassFish 7.0.21 - Remote">
+    <configuration name="GlassFish 7.0.21 - Local" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.21" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="J2EE-Timer:war">
@@ -144,6 +139,55 @@
         </option>
       </method>
     </configuration>
+    <configuration name="GlassFish 7.0.21 - Remote" type="GlassfishConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="GlassFish 7.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="J2EE-Timer:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="adminServerHost" value="" />
+          <option name="clusterName" value="" />
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="67bdc34c-3988-4bd9-8741-408d9e9a730a" />
+              <id>67bdc34c-3988-4bd9-8741-408d9e9a730a</id>
+            </TransportTarget>
+          </option>
+          <admin-server-host />
+          <cluster-name />
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="67bdc34c-3988-4bd9-8741-408d9e9a730a" />
+              <id>67bdc34c-3988-4bd9-8741-408d9e9a730a</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61579" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="J2EE-Timer:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.GlassFish 7.0.21 - Local" />
+      <item itemvalue="GlassFish Server.GlassFish 7.0.21 - Remote" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -164,7 +208,8 @@
       <workItem from="1749891401956" duration="6033000" />
       <workItem from="1750226694828" duration="515000" />
       <workItem from="1750227329890" duration="3964000" />
-      <workItem from="1750231355739" duration="815000" />
+      <workItem from="1750231355739" duration="920000" />
+      <workItem from="1750327651103" duration="5276000" />
     </task>
     <servers />
   </component>
